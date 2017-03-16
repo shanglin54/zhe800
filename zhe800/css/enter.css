@@ -1,0 +1,193 @@
+/*登录页面*/
+body{background: #F6F6F6;}
+#en-topbox,#en-mainbox,#footbox{width: 100%;}
+
+/*top*/
+#en-topbox .en-top{
+	margin: 0 auto;
+	width: 980px;
+	height: 55px;
+	padding: 30px 0 18px;
+}
+#en-topbox .en-top img{
+	float: left;
+}
+#en-topbox .en-top span{
+	float: right;
+	margin: 35px 0 0;
+	color: #666;
+    font-size: 14px;
+}
+
+/*main-------内容区---------*/
+
+#en-mainbox .en-main{
+	background: #fff;
+	margin:0 auto;
+	width: 980px;
+	height: 510px;	
+}
+#en-mainbox .en-main .left{
+	margin-top: 12px;
+	float: left;
+	width: 550px;
+	height: 390px;	
+}
+#en-mainbox .en-main .left img{
+	margin: 50px 0 0 80px;
+}
+
+/*------------右边------*/
+#en-mainbox .en-main .right{        /*右边*/
+
+	width:380px;
+	height:380px;
+	float: right;
+	margin:80px 0 0 30px;	
+}
+#en-mainbox .en-main .right p{
+	font-size: 12px;
+}
+#en-mainbox .en-main .right form .name,.passw{
+	width: 240px;
+	height: 40px;
+	margin: 10px 0;
+	text-indent: 40px;
+	border:1px solid #C4C4C4;
+}
+#en-mainbox .en-main .right form .name{
+	background:#fff url(../img/touxiang-1.jpg) no-repeat 13px 15px;	
+}
+#en-mainbox .en-main .right form .passw{
+	background:#fff url(../img/passwo-1.jpg) no-repeat 13px 15px;	
+}
+#en-mainbox .en-main .right form .btn{
+	width: 122px;
+	height: 42px;
+	font-size: 20px;
+	letter-spacing: 6px;
+	text-align: center;
+	background: #F14742;
+	color: #fff;
+	border: 0;
+	margin-top: 20px;
+}
+#en-mainbox .en-main .right form span{
+	font-size: 12px;
+	margin-left:16px;
+}
+#en-mainbox .en-main .right .qqbai{
+	width: 400px;
+	height: 85px;
+	border-top: 1px solid #E5E5E5;
+	margin-top: 10px;
+}
+#en-mainbox .en-main .right .qqbai p{
+	margin-top: 20px;
+}
+
+#en-mainbox .en-main .right .enter{      /*还可以使用这些账号登录：*/
+	width: 400px;
+	height: 81px;
+	padding: 20px 0 20px 0;
+	
+}
+#en-mainbox .en-main .right .enter .userid{    /*隐藏的登录账号   微博、淘宝、人人*/
+	width:450px;
+	height: 30px;
+	float: left;
+	margin-top: 13px;
+}
+#en-mainbox .en-main .right .enter dl{
+	width: 90px;
+	height: 30px;
+	border: 1px solid #d5d5d5;
+	color: #666;
+	float:left;
+	margin-right: 18px;
+	position: relative;
+	text-indent: 33px;
+	font-size: 15px;
+}
+#en-mainbox .en-main .right .enter .dl1{
+	cursor:pointer;
+	background:#E9E9E9 url(../img/bg2.png) no-repeat -1px -2px;
+}
+#en-mainbox .en-main .right .enter .dl2{
+	cursor: pointer;
+	background:#E9E9E9 url(../img/hao123dialog.png) no-repeat -3px -90px;
+	
+}
+#en-mainbox .en-main .right .enter .dl3{
+	cursor: pointer;
+	width: 79px;
+	height: 23px;
+	background:#E9E9E9 url(../img/bg2.png) no-repeat -3px -34px;
+}
+#en-mainbox .en-main .right .enter .dl4{
+	cursor: pointer;
+	width: 79px;
+	height: 23px;
+	background:#E9E9E9 url(../img/bg2.png) no-repeat -2px -59px;
+}
+#en-mainbox .en-main .right .enter .dl5{
+	cursor: pointer;
+	width: 79px;
+	height: 23px;
+	background:#E9E9E9 url(../img/bg2.png) no-repeat -2px -84px;
+}
+#en-mainbox .en-main .right .enter dl dd{
+	padding-top:6px;
+}
+#en-mainbox .en-main .right .enter span{
+	width: 37px;
+    height: 17px;
+    float: left;
+    margin: 10px 0 0 5px;
+    cursor: pointer;
+    font-size: 13px;
+    background: url(../img/j.png) no-repeat 30px -15px;
+}
+
+
+
+
+/*-----------底部   foot---------*/
+#footbox .foot{
+	margin: 0 auto;
+	width: 980px;
+	height: 62px;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 35px;
+}
+#footbox .foot a{
+	font-size: 12px;
+	line-height: 22px;
+    font-family: arial;
+}
+#footbox .foot a img{
+	display: inline-block;
+	margin: 7px auto;
+	width: 72px;
+	height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

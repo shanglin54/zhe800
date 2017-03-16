@@ -1,0 +1,409 @@
+.container-fluid{
+	background-color: #F2F2F2;
+	color: #999;
+}
+.container-fluid .top{
+	/*background: forestgreen;*/
+	margin: 0 auto;
+	width: 990px;
+	height: 26px;
+	font-size:12px;		
+}
+.container-fluid .top .col-md-1{
+		/*width: 20px;*/
+		padding: 0;
+		text-align: center;
+		line-height: 26px;
+	}
+.container-fluid .top .tui{
+	width: 24px;
+}
+.container-fluid .top .guanzhu{
+	width: 84px;
+}
+.container .con{
+	width: 990px;
+	height: 92px;
+	margin: 0 auto;
+	
+}
+.container .con .flow{
+	height: 92px;
+	background: url(../img/tmlogo.png) no-repeat 0 30px;
+}
+
+.container .con .plan{
+	float: right;
+	width: 590px;
+	height: 58px;	
+	background: url(../img/jindu2.png) no-repeat;
+	margin-top: 30px;
+}
+.container .site{
+	width: 990px;
+	height: 185px;
+	margin:0 auto;
+}
+.container .site .sites{
+	width: 237px;
+	height: 105px;
+	margin:0 14px 14px 0;
+	background: url(../img/biankuang2.png);
+}
+.container .site .kuang{
+	background: url(../img/biankuang.png);
+}
+.container .site p{
+	margin-top:30px;
+	line-height: 35px;
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+}
+.container .sites .shou{
+	margin-top: 5px;
+	display: block;
+	width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    line-height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.container .sites{
+	font-size: 12px;
+	line-height: 20px;
+}
+.container .collection{
+	width: 990px;
+	height: 104px;
+	border: 2px solid #EEE;
+	margin: 0 auto;
+	margin-top: 60px;
+	font-size: 12px;
+}
+.container .collection p{
+	width: 300px;
+}
+.container .collection .p1{
+	margin: 5px 0 20px 0;
+}
+.container .collection .p1 span{
+		margin: 10px 0 0 10px;
+		display: inline-block;
+		width: 25px;
+		height: 15px;
+		color: #fff;
+	    background-color: #dd2727;
+	    border-radius: 2px;
+	    
+	}
+.container .collection .p2{
+	text-indent: 30px;
+}
+.container .order{
+	margin:0 auto;
+	width: 990px;
+	height: 25px;
+	line-height: 25px;
+    color: #333;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 18px 0 24px 76px;
+}
+.container .introduce{
+	width:990px;
+	height: 27px;
+	margin: 0 auto;
+	margin-left: 110px;
+}
+.container .introduce .aligning{
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 3px solid #b2d1ff;
+	margin: 0 1px;
+}
+.container .trade{
+	width: 990px;
+	height: 28px;
+	margin: 0 auto;
+	border-bottom: 1px dotted #80b2ff;
+	font-size: 12px;
+}
+.container .trade img{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+.container .trade p{
+	float: left;
+	line-height: 18px;
+}
+.container .trade span{
+	display: inline-block;
+	float: left;
+	width: 22px;
+	height: 20px;
+	background: url(../img/kefu.gif) no-repeat 5px 0;
+}
+.container .main{
+	background: #FBFCFF;
+	width: 990px;
+	height: 75px;
+	margin:0 auto;
+	font-size: 12px;
+	text-align: center;
+}
+.container .main div{
+	margin-left: 12px;
+	padding-top: 10px;
+}
+.fir img{
+		width: 50px;
+		height: 50px;
+	}
+.container .main color span{
+	line-height: 20px;
+}
+.container .leave{
+	width: 990px;
+	height: 41px;
+	margin: 0 auto;
+	font-size: 12px;
+	background-color: #F2F7FF;
+	border-bottom: 1px solid #fff;
+}
+.container .leave input{
+	width: 330px;
+}
+.container .leave .put{
+	padding-top: 10px;
+}
+.container .jia{
+	float: right;
+	/*margin-right: 2px;*/
+	text-align: right;
+	padding-top: 10px;
+	color: #dd2727;
+    font: 700 12px tahoma;
+}
+.container .leave .yun{
+	padding-top: 10px;
+}
+.container .insurance{
+	width: 990px;
+	height: 41px;
+	margin: 0 auto;
+	font-size: 12px;
+	background-color: #F2F7FF;
+	border-bottom: 1px solid #fff;
+}
+.container .insurance .yun{
+	padding-top: 10px;
+}
+.container .total{
+	width: 990px;
+	height: 51px;
+	margin: 0 auto;
+	font-size: 12px;
+	background-color: #F2F7FF;
+	border-bottom: 1px dotted #ddd;
+}
+.container .total .jia{
+	font-weight: 100;
+	color: #000;
+}
+.container .total .jia span{
+	color: #dd2727;
+    font-family: verdana,arial;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.container .playing{
+	width: 990px;
+	height: 51px;
+	margin: 0 auto;
+	font-size: 12px;
+	border-bottom: 1px dotted #ddd;
+}
+.container .playing input{
+	margin: 15px 0 0 5px;
+	height: 12px;
+}
+.container .coupon{
+	width: 990px;
+	height: 41px;
+	margin: 0 auto;
+	font-size: 12px;
+	border-bottom: 1px dotted #ddd;
+	padding-top: 10px;
+}
+.container .coupon input{
+	float: left;
+	margin-left: 46px;
+}
+.container .coupon span{
+	display: inline-block;
+	float: right;
+	margin-top: 2px;
+}
+.container .send{
+	width: 990px;
+	margin: 0 auto;
+	font-size: 12px;
+	padding-top: 10px;
+}
+.container .send div{
+	width: 370px;
+	height: 125px;
+    min-width: 230px;
+    padding: 10px 10px 10px 20px;
+    float: right;
+    display: inline-block;
+    border: 1px solid #dd2727;
+}
+.container .send .p1 b{
+	font-weight: 700;
+    color: #333;
+}
+.container .send .p1 span{
+	color: #dd2727;
+    font: 700 26px tahoma;
+}
+.container .send .p1{
+	float: right;
+}
+.container .send .p2{
+	float: left;
+}
+.container .send .p3{
+	float:right;
+}
+.container .submit{
+	width: 990px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.container .submit .tij{
+	display: inline-block;
+    width: 182px;
+    height: 39px;
+    position: relative;
+    vertical-align: middle;
+    line-height: 39px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    background: #dd2727;
+    color: #fff;
+    float: right;
+}
+.container .promise{
+	width: 1190px;
+	height: 100px;
+	border-top: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	margin-top: 30px;
+}
+/**********脚部**********/
+#footer-box{
+	width: 100%;
+	border-top: 3px solid #EC1611;
+	background: #fff;
+}
+#footer-box .foot{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+}
+#footer-box .foot .foot-top{
+	background: #fff;
+	width:1200px;
+	height: 228px;
+	border-bottom: 1px solid #F2F2F2;
+	margin-left: 60px;
+	/*padding-top: 35px;*/	
+}
+#footer-box .foot .foot-top dl{
+	padding-top: 30px;
+	width: 131px;
+	height: 200px;
+	float: left;
+	border-right:1px solid #F2F2F2;
+	padding-left: 40px;
+}
+#footer-box .foot .foot-top dl dt{
+	font: 16px/30px "microsoft yahei";
+    color: #666;
+}
+#footer-box .foot .foot-top dl dd a{
+	font-size: 12px;
+	line-height: 25px;
+	color: #999;
+	font-family: "microsoft yahei";
+	
+}
+
+#footer-box .foot .foot-top .dl1{
+	width: 156px;
+	padding-left: 0;
+}	
+#footer-box .foot .foot-top .dl5{
+	width: 211px;
+}
+#footer-box .foot .foot-top .dl6{
+	border-right: none;
+}
+#footer-box .foot .foot-top .dl6 dd .scan{
+	margin-top: 5px;
+	width: 242px;
+	height: 117px;
+	background: #F9F8F8;
+	background: url(../img/foot_erweima.png) no-repeat;
+}
+#footer-box .foot .foot-top .dl6 dd .scan h5{
+	margin-left: 124px;
+	padding-top: 25px;
+	margin-bottom: 3px;
+	font-family: "microsoft yahei";
+}
+#footer-box .foot .foot-top .dl6 dd .scan p{
+	font-size: 12px;
+	margin-left: 124px;
+	line-height: 24px;
+	font-family: "microsoft yahei";
+}
+#footer-box .foot .foot-bottom{
+	font-family: "microsoft yahei";
+	padding-top: 20px;
+	color: #999;
+	height: 140px;
+	text-align: center;
+	font-size: 12px;
+}
+#footer-box .foot .foot-bottom a{
+	color: #C2ADD3;
+	display: inline;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-family: "microsoft yahei";
+}
+#footer-box .foot .foot-bottom p{
+	color: #C2ADD3;
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin: 10px;
+	font-family: "microsoft yahei";
+}
+#footer-box .foot .foot-bottom a img{
+	display: inline-block;
+	margin: 7px auto;
+	width: 72px;
+	height: 28px;
+	margin-left: 5px;
+}		
+

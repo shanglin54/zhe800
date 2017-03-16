@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		<!--https://detail.tmall.com/item.htm?id=541140005302&skuId=3411250811810-->
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/particulars.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/particulars.js" ></script>
+	</head>
+	<body>
+		<!--顶部-->
+		<div id="topbox">
+			<div class="top">
+				<ul>
+					<li><a href="##">淘宝网首页</a></li>
+					<li class="phone">
+						<img src="../img/mobile_icon.png"/><a href="##">我的淘宝</a>
+						<div class="qrdroid " style="display: none;"><!--二维码-->		
+							<a href="##"></a>
+						</div>
+					</li>
+					<li><a href="shopping.html" style="color: #e02f2f;">购物车</a></li>
+					<li><a href="##" >收藏夹</a></li>
+					<li><a href="##">商品分类</a></li>
+					<li><img src="../img/cart_icon.png" /><a href="##">卖家中心</a></li>
+					<li><a href="##">联系客服</a></li>
+					<li><a href="##">网站导航</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--头部-->
+		<div id="headbox">
+			<div class="head">
+				<div class="headtop">
+					<img class="logopic" src="../img/logo_zhe800.png" />
+					<form>
+						<input type="text" class="txt" placeholder="不裹粽子过寒冬"/>
+						<input type="button" value="搜索" class="smt"/>
+					</form>
+					<img class="widescreen" src="../img/toolbar_zai.jpg" />
+				</div>
+				
+				<div class="nav">
+					<img class="xiena" src="../img/toolbar_xiena.png" />
+					<ul>
+						<li class="model"><a href="../index1.html">首页</a></li>
+						<li><a href="../html/list.html">品牌团</a></li>
+						<li><a href="##">优品汇</a></li>
+						<li><a href="##">淘宝精选</a></li>
+						<li><a href="##">9块9包邮</a></li>
+						<li><a href="##">精选预告</a></li>
+						<li><a href="##">特卖商城</a></li>
+						<li><a href="##">积分商城</a></li>
+					</ul>
+					<div class="sign">     <!--GIF动态图，签到有好礼-->						
+					</div>
+				</div>
+			</div>			
+		</div>
+		
+<!--========详情 （放大镜）========-->	
+		<div id="detail_box">
+			<div class="detail">
+				<div class="detail_left">       <!--左边-->
+					<div class="magnifying">   <!--放大镜-->
+						<div class="pic">    <!--正常图片-->
+							<img src="../img/TB2e_s6bUWO.eBjSZPcXXbopVXa_!!1714410387.jpg_430x430q90.jpg" />
+							<img src="../img/TB2UxYPaxRzc1FjSZFPXXcGAFXa_!!1714410387.jpg_430x430q90.jpg" />
+							<img src="../img/TB2sGg7bUWO.eBjSZPcXXbopVXa_!!1714410387.jpg_430x430q90.jpg" />
+							<img src="../img/TB1E9XROXXXXXa6XVXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg" />
+							<img src="../img/TB2T64JbSiJ.eBjSszfXXa4bVXa_!!1714410387.jpg_430x430q90.jpg" />
+							<div class="point">
+								<!--出现的指向方块-->
+							</div>
+						</div>
+						<!--隐藏的放大图-->
+						<div class="pic_big">
+							<img style="display: block;" src="../img/TB2KDvbbCqJ.eBjy1zbXXbx8FXa_!!1714410387.jpg" />
+							<img src="../img/TB2UxYPaxRzc1FjSZFPXXcGAFXa_!!1714410387.jpg" />
+							<img src="../img/TB2sGg7bUWO.eBjSZPcXXbopVXa_!!1714410387.jpg" />
+							<img src="../img/TB1E9XROXXXXXa6XVXXXXXXXXXX_!!0-item_pic.jpg" />
+							<img src="../img/TB2T64JbSiJ.eBjSszfXXa4bVXa_!!1714410387.jpg"/>
+						</div>					
+						 <!--小图-->
+						<div class="pic_small">    
+							<img src="../img/TB2KDvbbCqJ.eBjy1zbXXbx8FXa_!!1714410387.jpg_60x60q90.jpg" />
+							<img src="../img/TB2UxYPaxRzc1FjSZFPXXcGAFXa_!!1714410387.jpg_60x60q90.jpg" />
+							<img src="../img/TB2sGg7bUWO.eBjSZPcXXbopVXa_!!1714410387.jpg_60x60q90.jpg" />
+							<img src="../img/TB1E9XROXXXXXa6XVXXXXXXXXXX_!!0-item_pic.jpg_60x60q90.jpg" />
+							<img src="../img/TB2T64JbSiJ.eBjSszfXXa4bVXa_!!1714410387.jpg_60x60q90.jpg" />
+						</div>
+						<ul>
+							<li><a href="##">分享</a></li>
+							<li><a href="##">收藏商品（47人气）</a></li>
+							<li class="last"><a href="##">举报</a></li>
+						</ul>
+					</div>
+					<div class="description">    <!--放大镜右边-->
+						<div class="top">
+							<h3>中长款加厚套头针织衫外套宽松长袖打底毛衣女秋冬 韩版新款裙潮</h3>
+							<p>天猫正品 质量保证 售后无忧 不起球 不掉色</p>
+						</div>
+						<div class="promotion">    <!--促销价69-->
+							<p class="p1"><img src="../img/TB1D6hwNVXXXXamapXXXXXXXXXX-228-36.png"/><span>11.11满399减30,满599减50,满899减100,可跨店</span><a>去抢券</a></p>
+							<p class="p2">价格<span>￥188.00</span></p>
+							<p class="p3"><b style="color: #999;">促销价</b><span>￥</span><strong>69.00</strong></p>
+							<p class="p4"><span>想￥68.00拿下？</span>手机天猫购买更便宜</p>
+						</div>
+						<div class="freight">
+							<p><span>运费</span><b>江苏苏州 至 郑州  快递：0.00</b></p>
+							<ul>
+								<li class="li1">月销量14</li>
+								<li class="mid">累计评价1</li>
+								<li style="padding-right:0;">送天猫积分34</li>
+							</ul>
+						</div>							
+			<!--尺码、颜色、分类、数量-->
+						<div class="size">    <!--尺码-->
+							<span>尺码</span>
+							<ul>
+								<li>S</li>
+								<li>M</li>
+								<li>L</li>
+								<li>XL</li>
+							</ul>
+						</div>
+						<div class="color">    <!--颜色-->
+							<span>颜色分类</span>
+							<ul>
+								<li><div></div><img src="../img/TB21t9Ybr1J.eBjSszcXXbFzVXa_!!1714410387.jpg_40x40q90.jpg" title="栗色"/></li>
+								<li><div></div><img src="../img/TB2e_s6bUWO.eBjSZPcXXbopVXa_!!1714410387.jpg_40x40q90.jpg" title="蓝色"/></li>
+								<li><div></div><img src="../img/TB2Voi_bxmI.eBjy0FlXXbgkVXa_!!1714410387.jpg_40x40q90.jpg" title="墨绿"/></li>
+							</ul>
+						</div>
+						<div class="count">    <!--数量-->
+							<span>数量</span>
+							<ul>								
+								<li>
+									<input class="num" type="text" value="1"/>
+								</li>
+								<li class="add">∧</li>     <!--加-->
+								<li class="subtract">∨</li> <!--减-->
+							</ul>
+							<span class="piece">件</span>
+							<span>库存885件</span>
+						</div>
+						<input class="buy" type="button" value="立即购买" onclick="location.href='shopping.html'"/>
+						<input class="join" type="button" value="加入购物车" />
+						<p class="promise"><a>服务承诺</a><a>正品保证</a><a>急速退款</a><a>七天无理由退换</a></p>
+					</div>
+				</div>
+				
+				<div class="detail_right"><!--右边  上下滚动-->
+					
+					<div class="main">
+						<p>--看了又看--</p>
+						<ul>
+							<li><img src="../img/look1.jpg" alt="" /></li>
+							<li><img src="../img/look2.jpg" alt="" /></li>
+							<li><img src="../img/look3.jpg" alt="" /></li>
+							<li><img src="../img/look4.jpg" alt="" /></li>
+							<li><img src="../img/look5.jpg" alt="" /></li>
+							<li><img src="../img/look6.jpg" alt="" /></li>
+							<li><img src="../img/look7.jpg" alt="" /></li>
+							<li><img src="../img/look8.jpg" alt="" /></li>
+							<li><img src="../img/look9.jpg" alt="" /></li>
+							<li><img src="../img/look1.jpg" alt="" /></li>
+							<li><img src="../img/look2.jpg" alt="" /></li>
+							<li><img src="../img/look3.jpg" alt="" /></li>
+						</ul>
+					</div>
+					<div class="xz">
+						<span class="let"></span>
+						<span class="rit"></span>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		 <!--=======放大镜下面========-->
+		<div id="main_box">  
+			<div class="main">  
+				<!--左边-->
+				<div class="main_left">
+					<div class="store">  <!--左上角，旗舰店名称的小方块-->
+						<div class="store_top">
+							<span>永吉太米旗舰店</span><span class="kefu"></span>
+						</div>
+						<div class="grade">
+							<p><span>4</span>天猫4年店</p>
+							<ul>
+								<li><span>描述</span><span class="re">4.8 ↑</span></li>
+								<li><span>服务</span><span class="re">4.7 ↓</span></li>
+								<li><span class="wuliu">物流</span><span class="re">4.7 ↓</span></li>
+							</ul>
+							<a class="jin">进店逛逛</a>
+							<a class="shou">收藏店铺</a>
+						</div>
+					</div>
+					<div class="photo">
+						<img src="../img/zuotu1.jpg" />
+						<img src="../img/zuotu2.jpg" />
+						<img src="../img/zuotu3.jpg" />
+						<img src="../img/zuotu4.jpg" />
+						<img src="../img/zuotu5.jpg" />
+						<img src="../img/zuotu6.jpg" />
+					</div>
+				</div>
+				<!--右边-->
+				<div class="main_right">
+					<!--选项卡-->
+					 <ul class="menu" id="tab">
+				        <li>商品详情</li>
+				        <li>累计评价</li>
+				    </ul>
+				    <div class="menu_content xiq">
+				    	<img src="../img/shangxiang.png" />
+				    </div>
+				    <div class="menu_content hid">
+				    	<img src="../img/pingfen.png"/>
+				    </div>
+				    <div class="pic">
+					    <img src="../img/xiangtu1.jpg" />
+					    <img src="../img/xiangtu2.jpg" />
+				        <img src="../img/xiangtu3.jpg" />
+				        <img src="../img/xiangtu4.jpg" />
+				        <img src="../img/xiangtu5.jpg" />
+			            <img src="../img/xiangtu7.jpg" />
+			            <img src="../img/xiangtu8.jpg" />
+			            <img src="../img/xiangtu9.jpg" />
+			            <img src="../img/xiangtu10.jpg" />
+			            <img src="../img/xiangtu11.jpg" />
+			            <img src="../img/xiangtu12.jpg" />
+			            <img src="../img/xiangtu13.png" />
+			         </div>
+				</div>
+			</div>			
+		</div>
+		
+		<div id="chengnuo">
+			<img src="../img/chengnuo.jpg" />
+		</div>
+		
+		<!--脚部-->
+		<div id="footer-box">
+			<div class="foot">
+				<div class="foot-top">
+					<dl class="dl1">
+						<dt>关于我们</dt>
+						<dd><a href="##">关于我们</a></dd>
+						<dd><a href="##">官方视频</a></dd>
+						<dd><a href="##">诚聘英才</a></dd>
+						<dd><a href="##">网站服务条款</a></dd>
+						<dd><a href="##">用户服务协议</a></dd>
+						<dd><a href="##">联系我们</a></dd>
+					</dl>
+					
+					<dl class="dl2">
+						<dt>购物指南</dt>
+						<dd><a href="##">新手玩转折800</a></dd>
+						<dd><a href="##">订单查询</a></dd>
+						<dd><a href="##">会员介绍</a></dd>
+						<dd><a href="##">积分攻略</a></dd>
+						<dd><a href="##">帮助中心</a></dd>
+					</dl>
+					
+					<dl class="dl3">
+						<dt>消费者保障</dt>
+						<dd><a href="##">人工验货</a></dd>
+						<dd><a href="##">退货退款政策</a></dd>
+						<dd><a href="##">运费补贴卡</a></dd>
+						<dd><a href="##">无忧售后</a></dd>
+						<dd><a href="##">先行赔付</a></dd>
+					</dl>
+					
+					<dl class="dl4">
+						<dt>商务合作</dt>
+						<dd><a href="##">商家报名</a></dd>
+						<dd><a href="##">友情链接</a></dd>
+						<dd><a href="##">廉政举报</a></dd>
+					</dl>
+					
+					<dl class="dl5">
+						<dt>下次怎么来</dt>
+						<dd><a href="##">记住域名：zhe800.com</a></dd>
+						<dd><a href="##">百度搜索：折800</a></dd>
+						<dd><a href="##">下载桌面快捷方式</a></dd>
+						<dd><a href="##">收藏本站：加入收藏</a></dd>
+						<dd><a href="##">订阅本站</a></dd>
+					</dl>
+					
+					<dl class="dl6">
+						<dt>下载手机版</dt>
+						<dd>
+							<div class="scan">
+								<h5>扫描下载折800</h5>
+								<P>把折扣握在手心</P>
+								<P>把潮流带在身边</P>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				
+				<div class="foot-bottom">
+					<br/><a href="##">京ICP证120075号 </a>京ICP备10051110号-5<a href="##">京公网安备11010502025623</a> 营业执照110105013673175  食品流通许可证SP1101051510352397<br/>
+					<p>出版物经营许可证 新出发京零字第朝160018号  Copyright©2011-2015 版权所有 ZHE800.COM </p>
+					<p>
+						<a henf="##"><img src="../img/web_trust.png" /></a>
+						<a henf="##"><img src="../img/cert.png" /></a>
+						<a henf="##"><img src="../img/credit.png" /></a>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<!--********右侧**工具条*************-->
+		<div id="toolbar">
+			<ul>
+				<li class="li1"><a href="##">购物车</a><span></span></li>
+				<li class="li2"><a href="##"></a></li>
+				<li class="li3"><a href="##">券</a></li>
+				<li class="li4"><a href="##"></a></li>
+				<li class="li5"><a href="##"></a></li>
+				<li class="li6"><a href="##"></a></li>
+				<li class="li7"><a href="##"></a></li>
+				<li class="li8"><a href="##"></a></li>
+				<li class="li9"><a href="##"></a></li>
+				<li class="li10"><a href="##"></a></li>   <!--返回顶部-->
+			</ul>
+		</div>
+	</body>
+</html>

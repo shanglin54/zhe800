@@ -1,0 +1,247 @@
+/*注册页面*/
+body{background: #F6F6F6;}
+#re-topbox,#re-mainbox,#footbox{width: 100%;}
+
+/*top*/
+#re-topbox .re-top{
+	margin: 0 auto;
+	width: 980px;
+	height: 55px;
+	padding: 30px 0 18px;
+}
+#re-topbox .re-top img{
+	float: left;
+}
+#re-topbox .re-top span{
+	float: right;
+	margin: 35px 0 0;
+	color: #666;
+    font-size: 14px;
+}
+
+/*main--内容区*/
+
+#re-mainbox .re-main{
+	background: #fff;
+	margin:0 auto;
+	width: 860px;
+	height: 428px;	
+	padding: 40px 60px;
+}
+#re-mainbox .re-main .left{
+	position: relative;
+	margin-top: 12px;
+	float: left;
+	width: 430px;
+	height: 365px;
+}
+#re-mainbox .re-main .left form .hint{
+	margin-left: 60px;
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 29px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	width: 260px;
+	height: 20px;
+	text-align: left;
+}
+#re-mainbox .re-main .left form .hint-pass{
+	margin-left: 60px;
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 91px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	width: 320px;
+	height: 20px;
+	text-align: left;
+}
+#re-mainbox .re-main .left form .hint-affirm{
+	margin-left: 60px;
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 156px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	width: 260px;
+	height: 20px;
+	text-align: left;
+}
+#re-mainbox .re-main .left form .verify{
+	margin-left: 60px;
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 216px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	width: 260px;
+	height: 20px;
+	text-align: left;
+}
+#re-mainbox .re-main .left form span{	
+	display: inline-block;
+	width: 74px;
+	height: 36px;
+	text-align: right;
+	font: 14px/36px "宋体";
+	color: #333;
+}
+#re-mainbox .re-main .left form input{
+	width: 290px;
+	height: 30px;
+	color: #999;
+	border: 1px solid #d2d2d2;
+	padding: 2px 3px;
+    line-height: 30px;
+    border-radius: 5px;
+    text-indent: 5px;
+    margin-bottom: 26px;
+}
+#re-mainbox .re-main .left form .verification{     /*验证码*/
+	width: 120px;
+	height: 30px;	
+	margin-bottom: 0;
+}
+#re-mainbox .re-main .left form .gain{
+	width: 150px;
+    height: 36px;
+    background: #f6f6f6;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+#re-mainbox .re-main .left form p{
+	margin: 5px 0 10px 80px;
+	font-size: 12px;
+	
+}
+#re-mainbox .re-main .left form .check{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 11px 8px 0 80px;
+	
+}
+#re-mainbox .re-main .left form .deal{
+	font-size: 12px;
+}
+#re-mainbox .re-main .left form .btn{
+	width: 180px;
+	height: 33px;
+	line-height:23px;
+	background: #ff3b37;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 75px;
+	margin-top: 10px;
+}
+
+#re-mainbox .re-main .right{
+	float: left;
+	width: 430px;
+	height: 428px;
+	background: #fff;
+}
+
+#re-mainbox .re-main .right p{
+	position: relative;
+	font-size: 12px;
+	margin: 40px 0 -7px 138px;
+    padding: 0 5px;
+    z-index: 11;
+}
+#re-mainbox .re-main .right .enter{
+	width: 400px;
+	height: 81px;
+	border-top: 1px solid #ebebeb;
+	padding: 30px 0 20px 35px;
+	
+}
+#re-mainbox .re-main .right .enter .userid{    /*隐藏的登录账号   微博、淘宝、人人*/
+	width:450px;
+	height: 30px;
+	float: left;
+	margin: 13px 0 0 20px;	
+}
+#re-mainbox .re-main .right .enter dl{
+	width: 110px;
+	height: 30px;
+	border: 1px solid #d5d5d5;
+	color: #666;
+	float:left;
+	margin-right: 18px;
+	position: relative;
+	text-indent: 33px;
+	font-size: 15px;
+}
+#re-mainbox .re-main .right .enter .dl1{	
+	margin-left: 20px;
+	background:#E9E9E9 url(../img/ico2.png) no-repeat -1px -2px;
+}
+#re-mainbox .re-main .right .enter .dl2{
+	background:#E9E9E9 url(../img/ico2.png) no-repeat -3px -37px;
+}
+#re-mainbox .re-main .right .enter .dl3{
+	background:#E9E9E9 url(../img/ico2.png) no-repeat -3px -73px;
+}
+#re-mainbox .re-main .right .enter .dl4{
+	background:#E9E9E9 url(../img/ico2.png) no-repeat -3px -108px;
+}
+#re-mainbox .re-main .right .enter .dl5{
+	background:#E9E9E9 url(../img/ico2.png) no-repeat -3px -142px;
+}
+#re-mainbox .re-main .right .enter dl dd{
+	padding-top:6px;
+}
+#re-mainbox .re-main .right .enter span{
+	width: 37px;
+    height: 17px;
+    float: left;
+    margin: 10px 0 0 5px;
+    cursor: pointer;
+    font-size: 13px;
+    background: url(../img/j.png) no-repeat 30px -15px;
+}
+#footbox .foot{
+	margin: 0 auto;
+	width: 980px;
+	height: 62px;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 35px;
+}
+#footbox .foot a{
+	font-size: 12px;
+	line-height: 22px;
+    font-family: arial;
+}
+#footbox .foot a img{
+	display: inline-block;
+	margin: 7px auto;
+	width: 72px;
+	height: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,322 @@
+html,body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,form,fieldset,legend,table{margin:0;padding:0;}
+ul,ol,li{list-style:none;}
+a{text-decoration:none;color:#000;}
+img{border:none;display:block;}
+input{outline:none;}
+em,i{font-style:normal;}
+b,strong{font-weight:normal;}
+
+/*公共样式*/
+#topbox,#headbox{width:100%;}
+
+/*顶部  topbox*/
+#topbox{
+	background: #FAFAFA;
+}
+#topbox .top{
+	margin: 0 auto;
+	width: 1200px;
+	height: 29px;
+}
+#topbox .top ul{
+	float:right;
+}
+#topbox .top ul li{
+	float: left;
+	line-height:29px;	
+	position: relative;
+}
+
+#topbox .top ul .phone .qrdroid{          /*二维码的div*/
+	background:#fff;
+	width: 138px;
+	height: 138px;	
+	position: absolute;
+	top:29px;	
+}
+#topbox .top ul .phone .qrdroid a{	
+	display: block;
+	margin:10px 0 0 9px;
+	width: 114px;
+	height: 114px;	
+	background: url(../img/big_bg_img_v3.png) -96px -258px;	
+}
+#topbox .top ul li img{
+	float: left;
+	margin:6px 0 0 7px;
+}
+#topbox .top ul li a{
+	border-right: 1px solid #e5e5e5;
+	font-family: "microsoft yahei";
+	color: #999;
+	font-size: 12px;
+	padding:0 7px;
+}
+
+/*头部 headbox*/
+#headbox{
+	border-bottom: 2px solid #EC1611;
+	background: #fff;
+		
+}
+#headbox .head{
+	margin:0 auto;
+	width: 1200px;
+	height: 126px;
+	background: url(../img/r_img_xiena.png) no-repeat right 0 bottom 5px;
+}
+#headbox .head .headtop{
+	height:66px;
+	padding-bottom: 25px;
+}
+#headbox .head .headtop .logopic{
+	float: left;
+	padding-top: 21px;
+}
+#headbox .head .headtop form{
+	float: left;
+	margin:25px 0 0 63px;
+	width: 510px;
+	height: 36px;
+	
+}
+#headbox .head .headtop form .txt{
+	padding: 3px 0 0 8px;
+	float: left;
+	width: 409px;
+	height: 33px;
+	font-size: 14px;
+    font-family: "微软雅黑";
+    border: 1px solid #e02f2f;
+    
+}
+#headbox .head .headtop form .smt{
+	background: #ef0d0d;
+	float: left;
+	font: 16px "microsoft yahei";
+	color: #fff;
+	width: 79px;
+	height: 38px;
+	margin-left: -1px;
+	cursor: pointer;	
+	border: none;
+}
+#headbox .head .headtop .widescreen{
+	float: right;
+}
+/*-----------head下的nav------------*/
+#headbox .head .nav{
+	width: 1200px;
+	height: 35px;
+
+	
+}
+#headbox .head .nav ul{
+	float: left;
+}
+#headbox .head .nav ul .model a{     /* nav 导航条添加样式*/
+	background: #ec1611;
+	color:#fff;
+}
+
+#headbox .head .nav ul li{
+	float: left;
+}
+#headbox .head .nav ul li a{
+	float: left;	
+	font: 16px/35px "microsoft yahei";
+	color: #696969;
+	text-align: center;
+	padding: 0 20px;
+	border-radius:5px 5px 0 0;
+}
+#headbox .head .nav .sign{
+	float: right;       /*GIF动态图，签到有好礼*/
+	margin-right: 20px;
+	width: 126px;
+	height: 34px;
+	background: url(../img/126x34.31dcb164756e442506db73bd7457c8f7.gif) no-repeat;
+}
+#headbox .head .nav .xiena{       /*谢娜头像*/
+	float: right;
+	margin: -28px 20px 0 0;
+}
+
+
+/**********脚部**********/
+#footer-box{
+	width: 100%;
+	border-top: 3px solid #EC1611;
+	background: #fff;
+}
+#footer-box .foot{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+}
+#footer-box .foot .foot-top{
+	background: #fff;
+	width:1200px;
+	height: 228px;
+	border-bottom: 1px solid #F2F2F2;
+	/*padding-top: 35px;*/	
+}
+#footer-box .foot .foot-top dl{
+	padding-top: 30px;
+	width: 131px;
+	height: 200px;
+	float: left;
+	border-right:1px solid #F2F2F2;
+	padding-left: 40px;
+}
+#footer-box .foot .foot-top dl dt{
+	font: 16px/30px "microsoft yahei";
+    color: #666;
+}
+#footer-box .foot .foot-top dl dd a{
+	font-size: 12px;
+	line-height: 25px;
+	color: #999;
+	font-family: "microsoft yahei";
+	
+}
+
+#footer-box .foot .foot-top .dl1{
+	width: 156px;
+	padding-left: 0;
+}	
+#footer-box .foot .foot-top .dl5{
+	width: 211px;
+}
+#footer-box .foot .foot-top .dl6{
+	border-right: none;
+}
+#footer-box .foot .foot-top .dl6 dd .scan{
+	margin-top: 5px;
+	width: 242px;
+	height: 117px;
+	background: #F9F8F8;
+	background: url(../img/foot_erweima.png) no-repeat;
+}
+#footer-box .foot .foot-top .dl6 dd .scan h5{
+	margin-left: 124px;
+	padding-top: 25px;
+	margin-bottom: 3px;
+	font-family: "microsoft yahei";
+}
+#footer-box .foot .foot-top .dl6 dd .scan p{
+	font-size: 12px;
+	margin-left: 124px;
+	line-height: 24px;
+	font-family: "microsoft yahei";
+}
+#footer-box .foot .foot-bottom{
+	font-family: "microsoft yahei";
+	padding-top: 20px;
+	color: #999;
+	height: 140px;
+	text-align: center;
+	font-size: 12px;
+}
+#footer-box .foot .foot-bottom a{
+	color: #C2ADD3;
+	display: inline;
+	font-size: 12px;
+	letter-spacing: 2px;
+	font-family: "microsoft yahei";
+}
+#footer-box .foot .foot-bottom p{
+	color: #C2ADD3;
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin: 10px;
+	font-family: "microsoft yahei";
+}
+#footer-box .foot .foot-bottom a img{
+	display: inline-block;
+	margin: 7px auto;
+	width: 72px;
+	height: 28px;
+	margin-left: 5px;
+}		
+
+/** *****工具条*********8*/
+#toolbar{
+	width: 34px;
+	height: 100%;	
+	min-height: 594px;
+	background: #000;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+	font-size: 12px;
+    font-family: "microsoft yahei";
+    color: #fff;
+}
+#toolbar ul{
+	margin-top: 25px;
+}
+#toolbar ul li{
+	width: 34px;
+	height: 42px;
+	border: 1px solid #000;	
+}
+#toolbar ul li:hover{
+	background-color: #C7000B;
+	
+}
+#toolbar ul .li6:hover{
+	background-color: #000;
+}
+#toolbar ul li a{
+	color: #fff;
+	display: block;
+	width: 14px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#toolbar ul .li1{
+	height: 133px;
+	background: url(../img/sidePanelIconsNew.png) no-repeat -62px 0;
+}
+#toolbar ul .li1 span{
+	width: 26px;
+	height: 24px;
+	margin: 10px 5px 0 0px;
+	display: block;
+	background: hotpink;
+	background: url(../img/side_golds.png) no-repeat 5px -90px;
+}
+ #toolbar ul .li2{
+ 	background: url(../img/side_golds.png) no-repeat 6px -188px;
+ }
+ #toolbar ul .li3{
+ 	background: url(../img/side_golds.png) no-repeat 4px -264px;
+ }     
+ #toolbar ul .li3 a{
+ 	margin-top: 14px;
+ }    
+ #toolbar ul .li4{
+ 	background: url(../img/myFavorites.png) no-repeat 6px 12px;
+ }
+ #toolbar ul .li5{
+ 	background: url(../img/side_golds.png) no-repeat 3px -227px;
+ } 
+ #toolbar ul .li6{
+ 	background: url(../img/sidePanel_checkin1N.gif) no-repeat -1px 0;
+ 	margin-top: 60px;
+ }  
+  #toolbar ul .li7{
+ 	background: url(../img/sidePanelIconsNew.png) no-repeat -269px 3px;
+ 	
+ }  
+ #toolbar ul .li8{
+ 	background: url(../img/sidePanelIconsNew.png) no-repeat -331px 3px;
+ } 
+ #toolbar ul .li9{
+ 	background: url(../img/sidePanelIconsNew.png) no-repeat -502px 3px;
+ } 
+ #toolbar ul .li10{                                     /*返回顶部*/
+ 	background: url(../img/sidePanelIconsNew.png) no-repeat -555px 3px;
+ }                                      

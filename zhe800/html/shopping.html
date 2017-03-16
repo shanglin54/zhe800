@@ -1,0 +1,180 @@
+	<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/shopping.css" />
+		<script type="text/javascript" src="../js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="../js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="../js/shopping2.js" ></script>
+		<script type="text/javascript" src="../js/shopping.js" ></script>
+	</head>
+	<body>
+		<!--顶部-->
+		<div id="topbox">
+			<div class="top" style="width: 990px;">
+				<ul>
+					<li><a href="../index1.html">团800首页</a></li>
+					<li class="phone">
+						<img src="../img/mobile_icon.png"/><a href="##">我的淘宝</a>
+						<div class="qrdroid " style="display: none;"><!--二维码-->		
+							<a href="##"></a>
+						</div>
+					</li>
+					<li><a href="##">购物车</a></li>
+					<li><a href="html/enter.html" style="color: #e02f2f;">收藏夹</a></li>
+					<li><a href="##">商品分类</a></li>
+					<li><img src="../img/cart_icon.png" /><a href="##">卖家中心</a></li>
+					<li><a href="##">联系客服</a></li>
+					<li><a href="##">网站导航</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--头部-->
+		<div id="headbox">
+			<div class="header" style="width:990px">
+				<div class="headtop">
+					<img class="logopic gouwu" src="../img/TB1gWtVOXXXXXXtXFXXXXXXXXXX-173-80.png" />
+					<form style="float: right;margin-top:10px;">
+						<input type="text" class="txt" placeholder="宝贝"/>
+						<input type="button" value="搜索" class="smt"/>
+					</form>
+			
+				</div>
+				
+				<div class="nav_shop">
+					<ul class="left">
+						<li class="model"><a href="##">全部商品14</a></li>
+						<li class="mid"><a href="##">降价商品0</a></li>
+						<li><a href="##">库存紧张0</a></li>
+					</ul>
+					<ul class="right">
+						<li class="select"><a href="##">已选商品（不含运费）</a><span>0.00</span></li>
+						<li class="accoun"><a href="##">结算</a></li>
+					</ul>
+				</div>
+			</div>			
+		</div>
+		
+<!--=======商品添加结算========-->
+<div id="jiesuan">
+	<table id="cartTable">
+	    <thead>
+	        <tr>
+	            <th><label><input class="check-all check" type="checkbox"/>&nbsp;全选</label></th>
+	            <th>商品</th>
+	            <th>单价</th>
+	            <th>数量</th>
+	            <th>小计</th>
+	            <th>操作</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	        <!--<tr>
+	            <td class="checkbox"><input class="check-one check" type="checkbox"/></td>
+	            <td class="goods">
+	            	<img src="../img/shop1.jpg" alt=""/>
+	            	<b class="col">颜色分类：</b><span class="colorr">栗色</span>
+	            	<b class="col">尺码：</b><span class="sizess">XL</span>
+	            </td>
+	            <td class="price">69.00</td>
+	            <td class="count"><span class="reduce"></span><input class="count-input" type="text" value="1"/><span class="add">+</span></td>
+	            <td class="subtotal">69.00</td>
+	            <td class="operation"><span class="delete">删除</span></td>
+	        </tr>-->
+	       
+	
+	    
+	    </tbody>
+	</table>
+	<div class="foott" id="foott">
+	    <label class="fl select-all"><input type="checkbox" class="check-all check"/>&nbsp;全选</label>
+	    <a class="fl delete" id="deleteAll" href="javascript:;">删除</a>
+	    <div class="fr closing" style="font-family: 'microsoft yahei';"><a href="payment.html">结 算</a></div>
+	    <div class="fr total">合计：￥<span id="priceTotal">0.00</span></div>
+	    <div class="fr selected" id="selected">已选商品<span id="selectedTotal">0</span>件<span class="arrow up">︽</span><span class="arrow down">︾</span></div>
+	    <div class="selected-view">
+	        <div id="selectedViewList" class="clearfix">
+	            <div><img src="images/1.jpg"><span>取消选择</span></div>
+	        </div>
+	        <span class="arrow">◆<span>◆</span></span>
+	    </div>
+	</div>
+</div>
+
+<!--脚部-->
+		<div id="footer-box">
+			<div class="foot">
+				<div class="foot-top">
+					<dl class="dl1">
+						<dt>关于我们</dt>
+						<dd><a href="##">关于我们</a></dd>
+						<dd><a href="##">官方视频</a></dd>
+						<dd><a href="##">诚聘英才</a></dd>
+						<dd><a href="##">网站服务条款</a></dd>
+						<dd><a href="##">用户服务协议</a></dd>
+						<dd><a href="##">联系我们</a></dd>
+					</dl>
+					
+					<dl class="dl2">
+						<dt>购物指南</dt>
+						<dd><a href="##">新手玩转折800</a></dd>
+						<dd><a href="##">订单查询</a></dd>
+						<dd><a href="##">会员介绍</a></dd>
+						<dd><a href="##">积分攻略</a></dd>
+						<dd><a href="##">帮助中心</a></dd>
+					</dl>
+					
+					<dl class="dl3">
+						<dt>消费者保障</dt>
+						<dd><a href="##">人工验货</a></dd>
+						<dd><a href="##">退货退款政策</a></dd>
+						<dd><a href="##">运费补贴卡</a></dd>
+						<dd><a href="##">无忧售后</a></dd>
+						<dd><a href="##">先行赔付</a></dd>
+					</dl>
+					
+					<dl class="dl4">
+						<dt>商务合作</dt>
+						<dd><a href="##">商家报名</a></dd>
+						<dd><a href="##">友情链接</a></dd>
+						<dd><a href="##">廉政举报</a></dd>
+					</dl>
+					
+					<dl class="dl5">
+						<dt>下次怎么来</dt>
+						<dd><a href="##">记住域名：zhe800.com</a></dd>
+						<dd><a href="##">百度搜索：折800</a></dd>
+						<dd><a href="##">下载桌面快捷方式</a></dd>
+						<dd><a href="##">收藏本站：加入收藏</a></dd>
+						<dd><a href="##">订阅本站</a></dd>
+					</dl>
+					
+					<dl class="dl6">
+						<dt>下载手机版</dt>
+						<dd>
+							<div class="scan">
+								<h5>扫描下载折800</h5>
+								<P>把折扣握在手心</P>
+								<P>把潮流带在身边</P>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				
+				<div class="foot-bottom">
+					<br/><a href="##">京ICP证120075号 </a>京ICP备10051110号-5<a href="##">京公网安备11010502025623</a> 营业执照110105013673175  食品流通许可证SP1101051510352397<br/>
+					<p>出版物经营许可证 新出发京零字第朝160018号  Copyright©2011-2015 版权所有 ZHE800.COM </p>
+					<p>
+						<a henf="##"><img src="../img/web_trust.png" /></a>
+						<a henf="##"><img src="../img/cert.png" /></a>
+						<a henf="##"><img src="../img/credit.png" /></a>
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+</html>
